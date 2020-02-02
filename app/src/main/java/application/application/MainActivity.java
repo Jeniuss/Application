@@ -14,15 +14,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText idCardNumber = (EditText) findViewById(R.id.idCard);
-        Button submitButton = (Button) findViewById(R.id.submitButton);
 
-        submitButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent menu = new Intent(getApplicationContext(), Menu.class);
-                startActivity(menu);
-            }
-        });
+//        submitButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent menu = new Intent(getApplicationContext(), Menu.class);
+//                startActivity(menu);
+//            }
+//        });
     }
 }
