@@ -119,4 +119,141 @@
     <string name="input_pump">จำนวนครั้งในการสูบน้ำ</string>
     <string name="input_time">เวลาใช้งาน (Hr<sub><small>LPP</small></sub>)</string>
     <string name="input_watt">พบังงานเครื่องใช้ไฟฟ้า (Watt<sub><small>LPP</small></sub>)</string>
+
+    <!-- Section 3 -->
+    <string name="sec3">ส่วนที่ 3 ข้อมูลการเพาะปลูกข้าว</string>
+    <string name="sec3_31">3.1 ฤดูกาลเพาะปลูก (Crop Season, CrSe)</string>
+    <string name="sec3_31_1">3.1.1 นาปี (Wet Season, WS)</string>
+    <string name="sec3_31_2">3.1.2 นาปรัง (Dry Season, DS)</string>
+
+    <string name="sec3_crop">Crop season #1</string>
+    <string name="sec3_f1_1">ชื่อแปลง</string>
+    <string name="sec3_f1_2">พื้นที่เพาะปลูก</string>
+    <string name="sec3_f1_3">พิกัดที่ตั้งแปลง</string>
+
+    <string name="sec3_f1_4">4 รูปแบบการเพาะปลูก (Rice Cultivation Practices, RCul<sub><small>Prc</small></sub>)</string>
+    <string name="sec3_f1_4_1">แบบทั่วไป (Conventional Practices, Conv)</string>
+    <string name="sec3_f1_4_2">แบบท GAP (Good Agricultural Practices, GAP)ที่ได้รับการรับรอง</string>
+    <string name="sec3_f1_4_3">แบบทั่วไป (Organic Practices, Org)ที่ได้รับการรับรอง</string>
+
+
+    <string name="sec3_f1_5">5 การเตรียมพื้นที่ก่อนปลูก (Land preparation, LPP)</string>
+
+    <string name="sec3_f1_51">5.1 การจัดการเศษวัสดุเหลือทิ้งในนาข้าว</string>
+    <string name="sec3_f1_511">5.1.1 ชนิดเศษวัสดุเหลือทิ้ง (Residue Type, Re)</string>
+    <string name="sec3_f1_511_1">ข้าวโพด (Maize)</string>
+    <string name="sec3_f1_511_2">ตอซังและฟางข้าว (Rice straw and stubble)</string>
+    <string name="sec3_f1_511_3">อ้อย (Sugarcane)</string>
+    <string name="sec3_f1_512">5.1.2 การจัดการเศษวัสดุเหลือทิ้ง (Residue management)</string>
+    <string name="sec3_f1_512_1">เผา (Burning, Br)</string>
+    <string name="sec3_f1_512_2">ไม่เผา (Non-Burning, Br)</string>
+    <string name="sec3_f1_512_3">พื้นที่การเผา (Burning area, Ba)</string>
+    <string name="sec3_f1_512_4">ปริมาณเศษวัสดุ (Mass of crop residue, MRe)</string>
+
+    <string name="sec3_f1_52">5.2 การใช้สารอินทรีย์ปรับปรุงดินก่อนปลูก (Organic amendment, OA)</string>
+    <string name="sec3_f1_521">ฟางข้าว</string>
+    <string name="sec3_f1_521_1">ไถกลบก่อนปลูก &gt;30 วัน (Straw incorporated &gt;30 days, ShSIncor)</string>
+    <string name="sec3_f1_521_2">ไถกลบก่อนปลูก &lt;30 วัน (Straw incorporated &lt;30 days, LnSIncor)</string>
+    <string name="sec3_f1_522">ปุ๋ยคอก (Farm yard manure, FYM)</string>
+    <string name="sec3_f1_522_1">มูลโค (Cow manure, CM)</string>
+    <string name="sec3_f1_522_2">มูลเป็ด (Duck manure, DM)</string>
+    <string name="sec3_f1_522_3">มูลไก่ (Chicken manure, ChM)</string>
+    <string name="sec3_f1_522_4">มูลค้างคาว (Bat manure, BM)</string>
+    <string name="sec3_f1_522_5">มูลสุกร (Pig manure, PM)</string>
+    <string name="sec3_f1_523">ปุ๋ยหมัก (Compost, Compt)</string>
+    <string name="sec3_f1_524">ปุ๋ยพืชสด (Green manure, GRM)</string>
+
+    <string name="sec3_f1_53">5.3 การใช้ปูนขาวและโดโลไมต์ (Lime and Dolomite application)</string>
+    <string name="sec3_f1_53_1">ปูนขาว (Lime, Lm)</string>
+    <string name="sec3_f1_53_2">โดโลไมต์ (Dolomite, Do)</string>
+
+    <string name="sec3_f1_54">5.4 การจัดการน้ำก่อนเพาะปลูก (Scaling factors for water regime prior to rice cultivation, SF<sub><small>p</small></sub>)</string>
+    <string name="sec3_f1_54_1">ไม่ขังน้ำ</string>
+    <string name="sec3_f1_54_2">ขังน้ำ</string>
+    <string name="sec3_f1_54_3">ไม่ขังน้ำก่อนปลูก 1&#8211;6 เดือน (NF 1&#8211;6 month)</string>
+    <string name="sec3_f1_54_4">ไม่ขังน้ำก่อนปลูก 6&#8211;12 เดือน (NF 6&#8211;12 month)</string>
+    <string name="sec3_f1_54_5">ไม่ขังน้ำก่อนปลูกมากกว่า 1 ปี (NF &gt; 1 year)</string>
+
+    <string name="sec3_f1_55">5.5 การจัดการน้ำเพื่อเตรียมดิน (Irrigation for land preparation, W<sub><small>LPP</small></sub>)</string>
+    <string name="sec3_f1_55_1">ใช้เครื่องสูบน้ำ</string>
+    <string name="sec3_f1_55_2">ไม่ใช้เครื่องสูบน้ำ</string>
+    <string name="sec3_f1_551">ชนิดเชื้อเพลิง/พลังงาน</string>
+    <string name="sec3_f1_551_1">ดีเซล (Diesel)</string>
+    <string name="sec3_f1_551_2">เบนซิน (Gasoline)</string>
+    <string name="sec3_f1_551_3">ไฟฟ้า (Electric)</string>
+    <string name="sec3_f1_551_4">พลังงานหมุนเวียน (Renewable Energy, ReEn)</string>
+    <string name="sec3_f1_551_p1">1) จำนวนครั้งในการสูบน้ำ</string>
+    <string name="sec3_f1_551_p2">2) เวลาใช้งาน(HR<sub><small>LPP</small></sub>)</string>
+    <string name="sec3_f1_551_p3">3) ปริมาณเชื้อเพลิงดีเซล/เบนซิน(Volume, VFuW<sub><small>LPP</small></sub>)</string>
+    <string name="sec3_f1_551_p4">4) กำลังเครื่องยนต์(Horse power, HP)</string>
+    <string name="sec3_f1_551_p5">5) พลังงานเครื่องใช้ไฟฟ้า (Watt<sub><small>LPP</small></sub>)</string>
+
+    <string name="sec3_f1_56">5.6 การใช้เครื่องยนต์และเชื้อเพลิงในการไถดิน (Land Tillage, LT)</string>
+    <string name="sec3_f1_561">5.6.1 ชนิดเชื้อเพลิง (Fuel Type, Fu<sub><small>LT</small></sub>)</string>
+    <string name="sec3_f1_561_p1">1) จำนวนครั้งในการไถ (Tillage time, TiT)</string>
+
+    <string name="sec3_f1_57">5.7 การใช้เครื่องยนต์และเชื้อเพลิงในการทำเทือก (Land leveling, LL)</string>
+    <string name="sec3_f1_571">5.6.1 ชนิดเชื้อเพลิง (Fuel Type, Fu<sub><small>LL</small></sub>)</string>
+    <string name="sec3_f1_571_p1">1) จำนวนครั้งในทำเทือก (Leveling time, LevT)</string>
+    <string name="sec3_f1_571_p2">2) ทำเทือก</string>
+
+
+    <string name="sec3_f1_6">6 การเพาะปลูกและการเจริญเติบโตของข้าว (Rice planting and Growing season, Plt-Gw)</string>
+
+    <string name="sec3_f1_61">6.1 พันธ์ุข้าว (Rice variety, RVar)</string>
+    <string name="sec3_f1_61_1">ข้าวเจ้า (Normal Rice, NorR)</string>
+    <string name="sec3_f1_61_2">ข้าวเหนียว (Glutinous Rice, GluR)</string>
+    <string name="sec3_f1_611">6.1.1 พันธ์ุข้าวเจ้า (Normal Rice, NorR)</string>
+    <string name="sec3_f1_612">6.1.2 พันธ์ุข้าวเหนียว (Glutinous Rice, GluR)</string>
+
+    <string name="sec3_f1_62">6.2 วิธีการเพาะปลูก (Rice planting method, RPlt<sub><small>Met</small></sub>)</string>
+    <string name="sec3_f1_62_1">หยอด (Dropping, Drp)</string>
+    <string name="sec3_f1_62_2">ปักดำ (Transplanting, Trp)</string>
+    <string name="sec3_f1_62_3">หว่านน้ำตม (Wet seeding, WSd)</string>
+    <string name="sec3_f1_62_4">หว่านแห้ง (Dry seeding, Dsd)</string>
+    <string name="sec3_f1_62_5">โยน (Parachute, Prc)</string>
+
+    <string name="sec3_f1_63">6.3 การใช้เครอื่งยนต์และเชื้อเพลิงการเพาะปลูก (Planting machine, PlMc)</string>
+    <string name="sec3_f1_63_1">ใช้เครื่องยนต์</string>
+    <string name="sec3_f1_63_2">ไม่ใช้เครื่องยนต์</string>
+
+    <string name="sec3_f1_64">6.4 ปลูกข้าว</string>
+    <string name="sec3_f1_65">6.5 การขังน้ำ (Water pump for flooding, W<sub><small>Fd</small></sub>)</string>
+
+    <string name="sec3_f1_66">6.6 การจัดการน้ำระหว่างปลูก (Scaling factors for water reqime during cultivation period, SFw)</string>
+    <string name="sec3_f1_661">6.6.1 ข้าวไร่ (Upland, Upl)</string>
+    <string name="sec3_f1_662">6.6.2 ข้าวนาชลประทาน (Irrigated rice, Irri)</string>
+    <string name="sec3_f1_662_1">ขังน้ำต่อเนื่อง (Continuous flooding, CF)</string>
+    <string name="sec3_f1_662_2">ขังน้เป็นระยะ ปล่อยน้ำ 1 ครั้ง (Single drainage, SD)</string>
+    <string name="sec3_f1_662_3">ขังน้เป็นระยะ ปล่อยน้ำหลายครั้ง (Multiple drainage, MD)</string>
+    <string name="sec3_f1_662_4">เปียกสลับแห้ง (Alternate wet and dry, AWD)</string>
+    <string name="sec3_f1_663">6.6.3 ข้าวนาน้ำฝน (Rainfed rice, RF)</string>
+    <string name="sec3_f1_663_1">ฝนตกต่อเนื่อง (Regular rainfed, RRF)</string>
+    <string name="sec3_f1_663_2">แห้งแล้ง (Drought prone, DRP)</string>
+    <string name="sec3_f1_663_3">น้ำลึก (Deep water, DEP)</string>
+
+    <string name="sec3_f1_67">6.7 การใช้ปุ๋ย N (N Fertilizer application, N Fer<sub><small>App</small></sub>)</string>
+    <string name="sec3_f1_671">6.71 ปุ๋ยเคมี (Synthetic N Fertilizer, N F<sub><small>SN</small></sub>)</string>
+    <string name="sec3_f1_671_1">ใส่ครั้งที่ 1  ใส่ปุ๋ย</string>
+    <string name="sec3_f1_671_1_p1">ปุ๋ยยูเรีย (Urea, 46&#8211;0&#8211;0)</string>
+    <string name="sec3_f1_671_1_p11">ปริมาณ (MF<sub><small>SN1</small></sub>)(Urea, 46&#8211;0&#8211;0)</string>
+    <string name="sec3_f1_671_1_p2">ปุ๋ยสูตร (Compound Fers.)</string>
+    <string name="sec3_f1_671_1_p21">สูตรปุํยเคมี F<sub><small>SN1</small></sub>)</string>
+    <string name="sec3_f1_672">6.7.2 ปุ๋ยอินทรีย์ (Organic N applied as fertilizer, F<sub><small>ON</small></sub>)</string>
+
+    <string name="sec3_f1_68">6.8 วิธีการใส่ปุ๋ย</string>
+    <string name="sec3_f1_68_1">หว่านมือ</string>
+    <string name="sec3_f1_68_2">เครื่องพ่นปุ๋ย</string>
+    <string name="sec3_f1_681">6.8.1 ชนิดเชื้อเพลิงเครื่องหว่านปุ๋ย (Sowing machine Fuel, FuM<sub><small>Fsow</small></sub>)</string>
+
+    <string name="sec3_f1_7">7 การเก็บเกี่ยวข้าว (Rice harvest, Hv)</string>
+    <string name="sec3_f1_71">7.1 เกี่ยวข้าว</string>
+    <string name="sec3_f1_72">7.2 อายุเก็บเกี่ยวข้าว (Rice cultivation period, RCul<sub><small>Per</small></sub>)</string>
+    <string name="sec3_f1_73">7.3 พื้นที่ก็บเกี่ยว (Harvested area, AHv)</string>
+    <string name="sec3_f1_74">7.4 ผลผลิตข้าวเปลือก (Paddy yield, Yd)</string>
+    <string name="sec3_f1_75">7.5 วิธีการเก็บเกี่ยว</string>
+    <string name="sec3_f1_75_1">เกี่ยวมือ</string>
+    <string name="sec3_f1_75_2">เครื่องเกี่ยวนวด</string>
+    <string name="sec3_f1_751">7.5.1 ชนิดเชื้อเพลิงเครื่องยนต์เกี่ยวนวดข้าว (Harvest Cutting Fuel, FuM<sub><small>Hv</small></sub>)</string>
+
 </resources>
