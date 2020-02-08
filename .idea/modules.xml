@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://G:\Freelance\P Gear\FarmApplication\Application.iml" filepath="G:\Freelance\P Gear\FarmApplication\Application.iml" />
       <module fileurl="file://$PROJECT_DIR$/FarmApplication.iml" filepath="$PROJECT_DIR$/FarmApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://G:\Freelance\P Gear\FarmApplication\app\app.iml" filepath="G:\Freelance\P Gear\FarmApplication\app\app.iml" />
     </modules>
   </component>
 </project>
