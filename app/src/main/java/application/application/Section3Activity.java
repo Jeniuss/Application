@@ -9,5 +9,6 @@ public class Section3Activity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_section3);
+        setTitle("แบบสอบถาม");
     }
 }

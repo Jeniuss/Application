@@ -76,9 +76,11 @@
     <string name="input_burn_area">พื้นที่การเผา (Burning area, Ba)</string>
     <string name="input_MRe">ปริมาณเศษวัสดุ (Mass of Crop residue, MRe)</string>
     <string name="unit_kk_rai">กิโลกรัม/ไร่</string>
+    <string name="unit_kk_rai_short">กก./ไร่</string>
     <string name="unit_time">ครั้ง</string>
     <string name="unit_horse">แรงม้า</string>
     <string name="unit_liter_time">ลิตร/ครั้ง</string>
+    <string name="unit_liter">ลิตร</string>
     <string name="unit_hr_time">ชั่วโมง/ครั้ง</string>
     <string name="unit_watt">ชวัตต์</string>
     <string name="txt_org_ame">การใช้สารอินทรีย์ปรับปรุงดินก่อนปลูก (Organic amendment, OA)</string>

@@ -3517,8 +3517,6 @@
 
             </RelativeLayout>
 
-
-
             <!-- Submit button -->
             <LinearLayout
                 android:id="@+id/relativeSetLast"
