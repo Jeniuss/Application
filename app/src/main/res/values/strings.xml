@@ -129,9 +129,6 @@
     <string name="txt_rice">ข้าว</string>
     <string name="txt_map">แผนที่</string>
     <string name="title_activity_google_map">Map</string>
-    <string name="txt_rice">ข้าว</string>
-    <string name="txt_map">แผนที่</string>
-    <string name="title_activity_google_map">Map</string>
     <string name="btn_submit">ส่งข้อมูล</string>
     <string name="txt_days">วัน (Days)</string>
 
