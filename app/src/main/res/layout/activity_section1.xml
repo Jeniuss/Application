@@ -5,12 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <include
+        android:id="@+id/toolbarSection"
+        layout="@layout/toolbar_section"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSection">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,15 +25,12 @@
                 android:id="@+id/section1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="108dp"
+                android:layout_gravity="center"
                 android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/txt_section_1"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textStyle="bold"/>
 
             <LinearLayout
                 android:id="@+id/linearLayout1"
@@ -59,7 +60,7 @@
 
                     <Spinner
                         android:id="@+id/editNameTitle"
-                        android:layout_width="108dp"
+                        android:layout_width="120dp"
                         android:layout_height="44dp" />
 
                     <EditText
@@ -68,7 +69,7 @@
                         android:layout_height="wrap_content"
                         android:ems="10"
                         android:inputType="textPersonName"
-                        android:text="ชื่อ-นามสกุล" />
+                        android:hint="@string/txt_name" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -84,7 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/input_id_card"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
 
                     <EditText
                         android:id="@+id/editIdCard"
@@ -127,7 +128,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/input_address_number"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <EditText
                         android:id="@+id/editAddressNumber"
@@ -142,7 +143,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/input_sub_district"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
 
                     <Spinner
                         android:id="@+id/editSubDistrict"
@@ -163,7 +164,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/input_district"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
 
                     <Spinner
                         android:id="@+id/editDistrict"
@@ -175,7 +176,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/input_province"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
 
                     <Spinner
                         android:id="@+id/editProvince"
@@ -196,7 +197,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/input_zone"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <Spinner
                         android:id="@+id/editZone"
@@ -208,7 +209,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/input_phone"
-                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead" />
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
 
                     <EditText
                         android:id="@+id/editPhoneNumber"
@@ -225,8 +226,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="25dp"
+                android:layout_marginBottom="8dp"
                 android:text="@string/txt_section_2"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:textStyle="bold"
                 android:layout_gravity="center"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -281,25 +283,24 @@
                         android:id="@+id/claySoil"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_clay_soil" />
+                        android:text="@string/op_clay_soil"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <RadioButton
                         android:id="@+id/loamSoil"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_loam_soil" />
+                        android:text="@string/op_loam_soil"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <RadioButton
                         android:id="@+id/sandyLoamSoil"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_sandy_loam_soil" />
+                        android:text="@string/op_sandy_loam_soil"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
-                    <RadioButton
-                        android:id="@+id/sandySoil"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/op_sandy_soil" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -311,10 +312,18 @@
                     android:orientation="horizontal">
 
                     <RadioButton
+                        android:id="@+id/sandySoil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/op_sandy_soil"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+                    <RadioButton
                         android:id="@+id/etc1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/etc" />
+                        android:text="@string/etc"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -357,19 +366,21 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
                     <RadioButton
                         android:id="@+id/inIrrigation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_in_irrigation" />
+                        android:text="@string/op_in_irrigation"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <RadioButton
                         android:id="@+id/outIrrigation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_out_irrigation" />
+                        android:text="@string/op_out_irrigation"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -402,19 +413,22 @@
                         android:id="@+id/rainWater"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="op_rain_water" />
+                        android:text="@string/op_rain_water"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <CheckBox
                         android:id="@+id/irrigation"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_irrigation" />
+                        android:text="@string/op_irrigation"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <CheckBox
                         android:id="@+id/pool"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_pool" />
+                        android:text="@string/op_pool"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -429,31 +443,35 @@
                         android:id="@+id/artesianWell"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_artesian_well" />
+                        android:text="@string/op_artesian_well"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <CheckBox
                         android:id="@+id/river"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/op_river" />
+                        android:text="@string/op_river"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
 
                     <CheckBox
                         android:id="@+id/etc2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/etc" />
+                        android:text="@string/etc"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
                 </LinearLayout>
             </LinearLayout>
 
             <Button
-                android:id="@+id/next"
+                android:id="@+id/nextBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:backgroundTint="@color/colorPrimaryDark"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="70dp"
                 android:text="ต่อไป"
-                android:textColor="#FFFFFF"
-                android:layout_gravity="end"/>
+                android:layout_gravity="end"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
         </LinearLayout>
     </ScrollView>
 

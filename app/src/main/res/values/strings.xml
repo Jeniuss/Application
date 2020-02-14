@@ -5,9 +5,10 @@
     <string name="txt_password">รหัสผ่าน</string>
     <string name="txt_submit_btn_th">ยืนยัน</string>
     <string name="txt_dash_board">Dashboard</string>
-    <string name="txt_quesion_air">รายการแบบสอบถาม</string>
-    <string name="txt_quesion_air_ans">ตอบแบบสอบถาม</string>
-    <string name="txt_quesion_air_unsuccess">แบบสอบถามที่ส่งไม่สำเร็จ</string>
+    <string name="txt_question">แบบสอบถาม</string>
+    <string name="txt_question_air">รายการแบบสอบถาม</string>
+    <string name="txt_question_air_ans">ตอบแบบสอบถาม</string>
+    <string name="txt_question_air_unsuccess">แบบสอบถามที่ส่งไม่สำเร็จ</string>
     <string name="input_id_card">หมายเลขบัตรประชาชน</string>
     <string name="txt_submit_btn">Submit</string>
     <string name="txt_section_1">ส่วนที่ 1 ข้อมูลบุคคล</string>
@@ -16,6 +17,7 @@
     <string name="txt_section_4">ส่วนที่ 4 ข้อมูลการเพาะปลูกผักและพืชไร่</string>
     <string name="txt_section_5">ส่วนที่ 5 ข้อมูลการจัดการแปลงไม้ผลยืนต้น/ยางพารา/ปาล์มน้ำมัน ที่สร้างรายได้แก่ครัวเรือน</string>
     <string name="txt_section_6">ส่วนที่ 6 ข้อมูลทรัพยากรป่าไม้และพื้นที่สีเขียว</string>
+    <string name="txt_name">ชื่อ-นามสกุล</string>
     <string name="input_name_surname">1.1 ชื่อ-นามสกุล</string>
     <string name="input_address">1.2 ที่อยู่</string>
     <string name="input_address_number">บ้านเลขที่่</string>
